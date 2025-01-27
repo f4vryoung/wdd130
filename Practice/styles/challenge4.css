@@ -1,0 +1,55 @@
+
+body {
+    background-color:cornflowerblue;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:ghostwhite;
+    text-align: center;
+  }
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+  }
+
+h2{
+    font-size: 12px;
+    font-family: serif;
+    color:ghostwhite;
+    text-align: center;
+}
+
+h3{
+    font-size: 16px;
+    font-family: serif;
+    color:ghostwhite;
+    text-align: center;
+}
+
+p{
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color:black;
+        text-align: left;
+}
+
+p.quote{
+    font-size: 36px;
+    font-family: serif;
+    font-weight: 100;
+    color:ghostwhite;
+    text-align: center;
+}
+
+footer p{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+}
