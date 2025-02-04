@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+#background {
+    margin: 0 auto;
+    width: 100%;
+}
+#content{
+    width: 100%;
+    padding: 0 25%;
+}
+#icon{
+    border-radius: 50%;
+    border-color:darkgray;
+    border-style:outset;
+    border-width: 20px;
+    margin: 150px;
+    padding: 10px;     
+}
