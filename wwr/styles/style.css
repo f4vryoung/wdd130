@@ -150,7 +150,7 @@ main section img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
- .msg{
+.msg{
     background-color:#245159;
     line-height: 1.5em;
     padding: 35px;
@@ -197,6 +197,81 @@ footer .social img{
     padding-top: 15px;
 }
 
+.form {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+.form p + p {
+    margin-top: 1em;
+  }
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+  }
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, text areas have a monospace font */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+input:focus,
+textarea:focus {
+    /* Set the outline width and style */
+    outline-style: solid;
+    /* To give a little highlight on active elements */
+    outline-color: #000;
+  }
+  
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }  
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -241,19 +316,19 @@ footer .social img{
     }
 }
 
-#trips-msg {
+#trips-msg, #contact-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 150px;
 }
 
-.trips-title {
+.trips-title, .contact-title {
     font-family: "Playwrite IS", Garamond, serif;
     font-size: 3em;
     margin-top: 10px;
 }
 
-#trips-msg h1, #trips-msg h4{
+#trips-msg h1, #trips-msg h4, #contact-msg h1, #contact-msg h4 {
     text-align: center;
     color:#F8F9F6;
     text-shadow: 2px 2px 2px #000000;
