@@ -61,6 +61,7 @@ main section.hero {
 #hero-img{
     width: 100%;
 }
+
 main section.intro{
     grid-column: 2/6;
     grid-row: 1;
